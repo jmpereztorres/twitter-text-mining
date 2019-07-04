@@ -1,0 +1,30 @@
+Hola,
+
+El trabajo no presencial de "Text Mining en Twitter" consistirá en desarrollar un pequeño sistema de Sentiment Analysis siguiendo los siguientes pasos:
+
+ 
+0) obtener una cuenta de desarrollo en Twitter (apps.twitter.com), registrar una aplicación y las claves correspondiente.
+
+1) descargar los tweets de entrenamiento a partir del id (TASS_training_polarity.txt).
+
+2) utilizar algún método de machine learning para construir un clasificador.
+
+3) descargar los tweets de test a partir del id (TASS_test_ids.txt).
+
+4) etiquetar los tweets de test utilizando el modelo aprendido en 2).
+
+5) subir a la actividad de PoliformaT un fichero de texto con el test etiquetado (identificador \t polaridad) y un fichero ".zip" con todo el código desarrollado.  
+
+6) para mejorar los modelos se puede utilizar un diccionario de polaridad (ElhPolar_esV1.lex )
+
+
+
+
+
+El formato del fichero de test debe ser igual que el de train (TASS_training_polarity.txt) es decir:
+
+identificador1 (tabulador) polaridad1
+identificador2 (tabulador) polaridad2
+identificador3 (tabulador) polaridad3
+...
+
