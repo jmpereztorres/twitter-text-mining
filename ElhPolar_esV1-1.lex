@@ -31,7 +31,6 @@
 # Lines starting with the '#' character are comments. The lexicon includes various word lists obtained from different sources. At the beginning of each section a comment explains the following elements.
 #
 ######################################################
-
 # General terms. The english OpinionFinder lexicon was used as starting point.
 a_ciegas	negative
 a_flote	positive
@@ -4068,15 +4067,15 @@ zumbado	negative
 
 ## Twitter
 # Twitter specific terms /items. usually hashtags.
-rt      positive
-tt      positive
-ht      positive
-fa      positive
-ff      positive
-tks     positive
-thx     positive
-ty      positive
-wtf     negative
+rt	positive
+tt	positive
+ht	positive
+fa	positive
+ff	positive
+tks	positive
+thx	positive
+ty	positive
+wtf	negative
 
 # Terms extracted from a Twitter corpus. Mispelled words are included if they are frequent enough.
 Besitos	positive
